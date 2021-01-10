@@ -1,0 +1,2 @@
+MP4 files cannot be uploaded due to files exceed 25MB limit.
+The Web App can also be accessed through http://www.dailymindfulness.com.s3-website-ap-southeast-2.amazonaws.com/
