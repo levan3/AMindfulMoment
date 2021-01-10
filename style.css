@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.website {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.timechoice,
+.mp4choice {
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+.timechoice button,
+.mp4choice button {
+  color: white;
+  width: 30%;
+  height: 10%; 
+  background: none;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid white;
+  transition: all 0.5s ease;
+}
+
+.mp4choice button {
+  border: none;
+  height: 120px;
+  width: 120px;
+  padding: 30px;
+  border-radius: 50%;
+}
+.mp4choice button:nth-child(1) {
+  background: rgb(136, 196, 255);
+}
+.mp4choice button:nth-child(2) {
+  background: rgb(207, 220, 138);
+}
+.mp4choice button img {
+  height: 100%;
+}
+
+.timechoice button:hover {
+  background: white;
+  color: black;
+}
+
+.mp3player {
+  position: relative;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.mp3player svg {
+  position: absolute;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  pointer-events: none;
+}
+.mp3player svg circle {
+  transition: all 0.2s ease-in-out;
+}
+
+.play{
+	position:absolute;
+}
+
+.replay{
+	position:absolute;
+	bottom:30%;
+}
+.countdown {
+  color: white;
+  position: absolute;
+  font-size: 40px;
+  bottom: 12%;
+}
+
+/*Quote*/
+#quotebox { 
+	
+	margin:20px auto; color:#000;
+	
+ }
+
+.quote {
+	color:white;
+	display:none; 
+	float:left; 
+	
+    margin-left:20px; 
+	margin-top:14px; 
+	padding:7px; }
+.quote p { 
+	
+	font: 11px Helvetica, Arial, Sans-serif; }
+.quote .author { 
+	font:italic 10px Georgia,serif,Times; 
+	color:white; 
+	padding-top:3px; }
+.quotemark { 
+	height:510px; 
+	display:none; 
+	float:left; 
+	font:bold 50px Helvetica; 
+	letter-spacing:0px; 
+	line-height:80px; 
+	color:rgba(255, 255, 255, 0.8); }
+.rightquote { 
+	margin-top:-3px;
+	height:510px; }
+
+/*video*/
+video {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: -10;
+}
+
+
+
+

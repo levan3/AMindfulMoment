@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="style.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script src="quote.js"></script>
+	
+	
+    <title>A Mindful Moment</title>
+  </head>
+  <body>
+    <div class="website">
+    
+    <!-- background video  -->
+      <div class="videobackground">
+        <video loop >
+          <source src="mp4/lake.mp4"  type="video/mp4">
+        </video>
+        </div>
+        
+        
+     <!-- Time Choice  -->   
+        <div class="timechoice">
+          <button data-time="120">2 Minutes</button>
+          <button data-time="300">5 Minutes</button>
+          <button data-time="600">10 Minutes</button>
+        </div>
+        
+        
+       <!-- MP3 player --> 
+       
+        <div class="mp3player">
+            <audio class="mp3">
+                <source src="mp3/rain.mp3" />
+              </audio>
+              
+              <!-- Play button  -->
+              <img src="svg/play.svg" class="play"></img>
+              
+              
+              <!-- circle  -->
+              <svg class="cirl3" width="453" height="453" viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="white" stroke-width="20"/>
+                </svg>
+                
+              <svg class="movingcircl3" width="453" height="453" viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="#018EBA" stroke-width="20"/>
+                </svg>
+                
+               <!-- Replay button --> 
+              <img src="svg/replay.svg" class="replay"></img>
+            
+				<!-- Countdown -->            
+                <h3 class="countdown">0:00</h3>   
+                
+                <!-- Quote -->
+                   <div id="quotebox">
+  				 <p class="quotemark leftquote">&#8216;&#8216;</p>
+   				 <div class="quote"></div>
+  				 <p class="quotemark rightquote">&#8217;&#8217;</p>
+				</div>   
+                
+            
+      </div>
+      <!-- Mp4 choice -->
+      <div class="mp4choice">
+        <button data-sound="mp3/lake.mp3" data-video="mp4/lake.mp4" ><img src="svg/lake.svg" alt=""></button>
+        <button data-sound="mp3/forest.mp3" data-video="mp4/forest.mp4"><img src="svg/forest.svg" alt=""></button>
+      </div>
+    </div>
+    
+
+
+
+    <script src="app.js"></script>
+    
+  </body>
+</html>
