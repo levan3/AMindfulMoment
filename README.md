@@ -1,4 +1,4 @@
-# AMindfulMoment
+# A Mindful Moment
 A Web App aims to introduce mindful moments and daily reflection to users.
 
 A Mindful Moment aims to provide users with mindful moments and reflecting time into their daily busy schedule. 
